@@ -1,46 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Bits and Backpacks | Practical Solo Travel</title>
-  <meta name="description" content="Practical solo travel guidance for thoughtful adults. Planning, mindset, safety, and smart travel systems.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bits & Backpacks | Practical Solo Travel</title>
+  <meta name="description" content="Practical solo travel guidance for thoughtful adults—mindset, planning, safety, budgeting, and tools that actually help." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Bits &amp; Backpacks</a>
 
-<header>
-  <div class="container">
-    <h1>Bits & Backpacks</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-    </nav>
-  </div>
-</header>
+      <nav class="nav">
+        <a href="book.html">Book</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<section class="hero">
-  <div class="container">
-    <h2>Travel alone. Think clearly. Move with intention.</h2>
-    <p>Practical solo travel guidance for thoughtful adults who want freedom without chaos.</p>
-  </div>
-</section>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Travel alone. Think clearly. Move with intention.</h1>
+          <p class="lead">
+            Practical solo travel guidance for thoughtful adults who want freedom without chaos.
+          </p>
 
-<section class="content">
-  <div class="container">
-    <h3>The Solo Travel Guide</h3>
-    <p>
-      A clear, practical guide to traveling alone with confidence. Real-world advice on planning,
-      safety, budgeting, and the mindset shifts that turn uncertainty into independence.
-    </p>
-  </div>
-</section>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="book.html">Get the Book</a>
+            <a class="btn btn-ghost" href="resources.html">Explore Resources</a>
+          </div>
 
-<footer>
-  <div class="container">
-    <p>© 2026 Bits and Backpacks</p>
-  </div>
-</footer>
+          <p class="fineprint">
+            No hype. No backpacking fantasy. Just what actually helps.
+          </p>
+        </div>
 
+        <div class="hero-card">
+          <div class="card">
+            <h3>Start here if you’re thinking:</h3>
+            <ul>
+              <li>“Can I really do this alone?”</li>
+              <li>“How do I stay safe without overthinking?”</li>
+              <li>“What should I plan vs wing?”</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOK HIGHLIGHT -->
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>The Solo Travel Guide</h2>
+          <p>
+            A practical, no-nonsense guide for first-time and thoughtful solo travelers. It covers mindset,
+            planning, safety, budgeting, and the small decisions that make a big difference on the road.
+            If you’ve been curious about going alone—but hesitating—this is where to start.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="book.html">View the Book</a>
+            <!-- Replace # with your Amazon link when live -->
+            <a class="btn btn-ghost" href="https://a.co/d/01X7CnLh" target="_blank" rel="noopener">Buy on Amazon</a>
+          </div>
+
+        </div>
+
+        <div class="card">
+          <h3>What’s inside</h3>
+          <ul>
+            <li>How to choose destinations that feel easy solo</li>
+            <li>Safety strategies that are practical, not paranoid</li>
+            <li>Budgeting + money traps (ATMs, cards, DCC)</li>
+            <li>Loneliness, meeting people, and social energy</li>
+            <li>Tools + systems to keep travel smooth</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESOURCES TEASER -->
+    <section class="section section-muted">
+      <div class="container split">
+        <div>
+          <h2>Travel Resources</h2>
+          <p>
+            A curated list of apps, tools, and references I actually use—language, navigation, budgeting,
+            safety, and planning. No clutter.
+          </p>
+          <a class="btn btn-primary" href="resources.html">Go to Resources</a>
+        </div>
+
+        <div class="card">
+          <h3>Quick links</h3>
+          <ul>
+            <li><a href="resources.html">All resources</a></li>
+            <li><a href="book.html">Book overview</a></li>
+            <li><a href="about.html">Why I built this</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Bits &amp; Backpacks</p>
+      <div class="footer-links">
+        <a href="book.html">Book</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
