@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #f4f1ec;
+  color: #2e2a26;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+header {
+  background: #e8e2d9;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #2e2a26;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #d9cfc3;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  padding: 3rem 2rem;
+}
+
+footer {
+  background: #e8e2d9;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
